@@ -1,0 +1,107 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f00a0a;
+    color: #333;
+    line-height: 1.6;
+}
+
+.header, .footer {
+    background-color: #2E3A59;
+    color: white;
+    padding: 1rem 2rem;
+    text-align: center;
+}
+
+.nav-logo a, .nav-links a {
+    color: #F9D342;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    list-style: none;
+}
+
+.nav-links a:hover {
+    color: #FFD700;
+}
+
+/* Hero Section */
+.hero-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-image: url('tkg.webp');
+    background-size: cover;
+    color: white;
+    padding: 4rem;
+    text-align: center;
+}
+
+.hero-btn {
+    background-color: #FFD700;
+    color: #2E3A59;
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    border: none;
+    cursor: pointer;
+    margin-top: 1rem;
+}
+
+/* About Section */
+.about-section, .services-section, .cta-section, .newsletter-section, .support-section, .location-section {
+    padding: 3rem 1rem;
+    text-align: center;
+}
+
+.service-card {
+    background-color: #FFFFFF;
+    padding: 2rem;
+    margin: 1rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* CTA Section */
+.cta-section {
+    background-color: #F9D342;
+    color: #2E3A59;
+}
+
+.cta-btn {
+    background-color: #2E3A59;
+    color: rgb(243, 7, 7);
+    border: none;
+    padding: 1rem 2rem;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-top: 1rem;
+}
+
+.cta-btn:hover {
+    background-color: #1F2A3C;
+}
+
+/* Footer */
+.footer {
+    padding: 1.5rem;
+    font-size: 0.9rem;
+}
+
+.social-links a {
+    color: #F9D342;
+    text-decoration: none;
+    margin: 0 0.5rem;
+}
+
+
